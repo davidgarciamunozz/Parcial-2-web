@@ -1,10 +1,10 @@
 
 import './App.css'
-import AddComment from './components/AddComment'
-import CommentList from './components/CommentList'
+import AddComment from './views/AddComment'
+import CommentList from './views/CommentList'
 import { Routes, Route } from 'react-router-dom'
-import FavoriteComments from './components/FavoriteComments'
-import EditComment from './components/EditComment'
+import FavoriteComments from './views/FavoriteComments'
+import EditComment from './views/EditComment'
 
 function App() {
   return (
